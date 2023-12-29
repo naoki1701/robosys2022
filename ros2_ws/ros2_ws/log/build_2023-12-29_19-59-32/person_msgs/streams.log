@@ -1,0 +1,6 @@
+[0.440s] Invoking command in '/home/kobayashi/robosys202x/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kobayashi/robosys202x/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --build /home/kobayashi/robosys202x/ros2_ws/build/person_msgs -- -j8 -l8
+[0.447s] CMake Error: The current CMakeCache.txt directory /home/kobayashi/robosys202x/ros2_ws/build/person_msgs/CMakeCache.txt is different than the directory /home/kobayashi/ros2_ws/build/person_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.456s] CMake Error: The source directory "/home/kobayashi/ros2_ws/scr/person_msgs" does not exist.
+[0.456s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.457s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.462s] Invoked command in '/home/kobayashi/robosys202x/ros2_ws/build/person_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kobayashi/robosys202x/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --build /home/kobayashi/robosys202x/ros2_ws/build/person_msgs -- -j8 -l8

@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000207] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000266] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.000356] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.105471] (-) TimerEvent: {}
+[0.225187] (-) TimerEvent: {}
+[0.266483] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.331545] (-) TimerEvent: {}
+[0.440875] (-) TimerEvent: {}
+[0.541396] (-) TimerEvent: {}
+[0.642159] (-) TimerEvent: {}
+[0.742637] (-) TimerEvent: {}
+[0.845472] (-) TimerEvent: {}
+[0.915720] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.915834] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/kobayashi/ros2_ws/scr/person_msgs', '-DCMAKE_INSTALL_PREFIX=/home/kobayashi/ros2_ws/scr/install/person_msgs'], 'cwd': '/home/kobayashi/ros2_ws/scr/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kobayashi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kobayashi'), ('OLDPWD', '/home/kobayashi/ros2_ws/scr/mypkg'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kobayashi/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kobayashi'), ('NAME', 'DESKTOP-03R2AAK'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Users/Kobayashi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Kobayashi/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kobayashi/ros2_ws/install/mypkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/kobayashi/ros2_ws/scr/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kobayashi/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/kobayashi/ros2_ws/install/mypkg:/opt/ros/foxy')]), 'shell': False}
+[0.945721] (-) TimerEvent: {}
+[1.046285] (-) TimerEvent: {}
+[1.058049] (person_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.146536] (-) TimerEvent: {}
+[1.247221] (-) TimerEvent: {}
+[1.261199] (person_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.347413] (-) TimerEvent: {}
+[1.356434] (person_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.359717] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/mypkg', 'build', '--build-base', '/home/kobayashi/ros2_ws/scr/build/mypkg/build', 'install', '--record', '/home/kobayashi/ros2_ws/scr/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/kobayashi/ros2_ws/scr/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kobayashi', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/kobayashi', 'OLDPWD': '/home/kobayashi/ros2_ws/scr/mypkg', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kobayashi/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'kobayashi', 'NAME': 'DESKTOP-03R2AAK', 'WSL_INTEROP': '/run/WSL/8_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Users/Kobayashi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Kobayashi/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/kobayashi/ros2_ws/install/mypkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/kobayashi/ros2_ws/scr/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kobayashi/ros2_ws/scr/build/mypkg/prefix_override:/home/kobayashi/ros2_ws/scr/install/mypkg/lib/python3.8/site-packages:/home/kobayashi/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.447567] (-) TimerEvent: {}
+[1.476194] (person_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.476975] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.547714] (-) TimerEvent: {}
+[1.561258] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.561799] (mypkg) StdoutLine: {'line': b'creating ../build/mypkg/mypkg.egg-info\n'}
+[1.562108] (mypkg) StdoutLine: {'line': b'writing ../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[1.562375] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[1.562581] (mypkg) StdoutLine: {'line': b'writing entry points to ../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[1.562828] (mypkg) StdoutLine: {'line': b'writing requirements to ../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[1.562903] (mypkg) StdoutLine: {'line': b'writing top-level names to ../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[1.564324] (mypkg) StdoutLine: {'line': b"writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.585869] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.595370] (mypkg) StdoutLine: {'line': b"reading manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.595998] (mypkg) StdoutLine: {'line': b"writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.596169] (mypkg) StdoutLine: {'line': b'running build\n'}
+[1.596318] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[1.596624] (mypkg) StdoutLine: {'line': b'creating /home/kobayashi/ros2_ws/scr/build/mypkg/build\n'}
+[1.596858] (mypkg) StdoutLine: {'line': b'creating /home/kobayashi/ros2_ws/scr/build/mypkg/build/lib\n'}
+[1.597023] (mypkg) StdoutLine: {'line': b'creating /home/kobayashi/ros2_ws/scr/build/mypkg/build/lib/mypkg\n'}
+[1.597226] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/kobayashi/ros2_ws/scr/build/mypkg/build/lib/mypkg\n'}
+[1.597300] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/kobayashi/ros2_ws/scr/build/mypkg/build/lib/mypkg\n'}
+[1.597367] (mypkg) StdoutLine: {'line': b'running install\n'}
+[1.597968] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.598253] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.598551] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.598800] (mypkg) StdoutLine: {'line': b'creating /home/kobayashi/ros2_ws/scr/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[1.599038] (mypkg) StdoutLine: {'line': b'copying /home/kobayashi/ros2_ws/scr/build/mypkg/build/lib/mypkg/talker.py -> /home/kobayashi/ros2_ws/scr/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[1.599261] (mypkg) StdoutLine: {'line': b'copying /home/kobayashi/ros2_ws/scr/build/mypkg/build/lib/mypkg/__init__.py -> /home/kobayashi/ros2_ws/scr/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[1.599643] (mypkg) StdoutLine: {'line': b'byte-compiling /home/kobayashi/ros2_ws/scr/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc\n'}
+[1.600871] (person_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.601185] (mypkg) StdoutLine: {'line': b'byte-compiling /home/kobayashi/ros2_ws/scr/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc\n'}
+[1.601294] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[1.601497] (mypkg) StdoutLine: {'line': b'creating /home/kobayashi/ros2_ws/scr/install/mypkg/share/ament_index\n'}
+[1.601673] (mypkg) StdoutLine: {'line': b'creating /home/kobayashi/ros2_ws/scr/install/mypkg/share/ament_index/resource_index\n'}
+[1.602027] (mypkg) StdoutLine: {'line': b'creating /home/kobayashi/ros2_ws/scr/install/mypkg/share/ament_index/resource_index/packages\n'}
+[1.602189] (mypkg) StdoutLine: {'line': b'copying resource/mypkg -> /home/kobayashi/ros2_ws/scr/install/mypkg/share/ament_index/resource_index/packages\n'}
+[1.602415] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/kobayashi/ros2_ws/scr/install/mypkg/share/mypkg\n'}
+[1.602620] (mypkg) StdoutLine: {'line': b'copying launch/talk_listen.launch.py -> /home/kobayashi/ros2_ws/scr/install/mypkg/share/mypkg\n'}
+[1.602692] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.603945] (mypkg) StdoutLine: {'line': b'Copying ../build/mypkg/mypkg.egg-info to /home/kobayashi/ros2_ws/scr/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info\n'}
+[1.604874] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.622770] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/kobayashi/ros2_ws/scr/install/mypkg/lib/mypkg\n'}
+[1.623340] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/kobayashi/ros2_ws/scr/build/mypkg/install.log'\n"}
+[1.646754] (mypkg) CommandEnded: {'returncode': 0}
+[1.648837] (-) TimerEvent: {}
+[1.726135] (person_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.727048] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.757702] (-) TimerEvent: {}
+[1.770049] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.857955] (-) TimerEvent: {}
+[1.895152] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.907082] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.907627] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.909764] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.935537] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.935784] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.958157] (-) TimerEvent: {}
+[2.058606] (-) TimerEvent: {}
+[2.123919] (person_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.125071] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.127783] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.132738] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.158789] (-) TimerEvent: {}
+[2.259272] (-) TimerEvent: {}
+[2.359822] (-) TimerEvent: {}
+[2.460333] (-) TimerEvent: {}
+[2.560879] (-) TimerEvent: {}
+[2.661657] (-) TimerEvent: {}
+[2.762336] (-) TimerEvent: {}
+[2.863057] (-) TimerEvent: {}
+[2.963708] (-) TimerEvent: {}
+[3.064317] (-) TimerEvent: {}
+[3.164796] (-) TimerEvent: {}
+[3.184540] (person_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.264962] (-) TimerEvent: {}
+[3.365548] (-) TimerEvent: {}
+[3.466073] (-) TimerEvent: {}
+[3.566610] (-) TimerEvent: {}
+[3.667146] (-) TimerEvent: {}
+[3.767665] (-) TimerEvent: {}
+[3.802101] (person_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.867870] (-) TimerEvent: {}
+[3.968293] (-) TimerEvent: {}
+[4.068718] (-) TimerEvent: {}
+[4.169344] (-) TimerEvent: {}
+[4.270264] (-) TimerEvent: {}
+[4.370900] (-) TimerEvent: {}
+[4.471334] (-) TimerEvent: {}
+[4.571832] (-) TimerEvent: {}
+[4.672280] (-) TimerEvent: {}
+[4.772747] (-) TimerEvent: {}
+[4.873158] (-) TimerEvent: {}
+[4.968024] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.973305] (-) TimerEvent: {}
+[5.016499] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[5.073507] (-) TimerEvent: {}
+[5.157255] (person_msgs) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):\n'}
+[5.157553] (person_msgs) StderrLine: {'line': b'  Packages installing interfaces must include\n'}
+[5.157677] (person_msgs) StderrLine: {'line': b"  '<member_of_group>rosidl_interface_packages</member_of_group>' in their\n"}
+[5.157788] (person_msgs) StderrLine: {'line': b'  package.xml\n'}
+[5.157891] (person_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.157993] (person_msgs) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[5.158094] (person_msgs) StderrLine: {'line': b'\n'}
+[5.158248] (person_msgs) StderrLine: {'line': b'\n'}
+[5.158859] (person_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.159021] (person_msgs) StdoutLine: {'line': b'See also "/home/kobayashi/ros2_ws/scr/build/person_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[5.170130] (person_msgs) CommandEnded: {'returncode': 1}
+[5.173692] (-) TimerEvent: {}
+[5.275726] (-) TimerEvent: {}
+[5.331520] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 1}
+[5.334174] (-) EventReactorShutdown: {}

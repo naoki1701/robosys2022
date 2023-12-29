@@ -1,0 +1,33 @@
+[0.923s] Invoking command in '/home/kobayashi/ros2_ws/scr/mypkg': PYTHONPATH=/home/kobayashi/ros2_ws/build/mypkg/prefix_override:/home/kobayashi/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/kobayashi/ros2_ws/build/mypkg/build install --record /home/kobayashi/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[1.098s] running egg_info
+[1.098s] creating ../../build/mypkg/mypkg.egg-info
+[1.099s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.099s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.100s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.100s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.100s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.108s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.136s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.136s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.137s] running build
+[1.137s] running build_py
+[1.137s] creating /home/kobayashi/ros2_ws/build/mypkg/build
+[1.137s] creating /home/kobayashi/ros2_ws/build/mypkg/build/lib
+[1.137s] creating /home/kobayashi/ros2_ws/build/mypkg/build/lib/mypkg
+[1.138s] copying mypkg/__init__.py -> /home/kobayashi/ros2_ws/build/mypkg/build/lib/mypkg
+[1.138s] running install
+[1.138s] running install_lib
+[1.139s] creating /home/kobayashi/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.140s] copying /home/kobayashi/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/kobayashi/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.140s] byte-compiling /home/kobayashi/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+[1.141s] running install_data
+[1.142s] creating /home/kobayashi/ros2_ws/install/mypkg/share/ament_index
+[1.142s] creating /home/kobayashi/ros2_ws/install/mypkg/share/ament_index/resource_index
+[1.142s] creating /home/kobayashi/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[1.143s] copying resource/mypkg -> /home/kobayashi/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[1.143s] copying package.xml -> /home/kobayashi/ros2_ws/install/mypkg/share/mypkg
+[1.143s] running install_egg_info
+[1.145s] Copying ../../build/mypkg/mypkg.egg-info to /home/kobayashi/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.146s] running install_scripts
+[1.161s] writing list of installed files to '/home/kobayashi/ros2_ws/build/mypkg/install.log'
+[1.181s] Invoked command in '/home/kobayashi/ros2_ws/scr/mypkg' returned '0': PYTHONPATH=/home/kobayashi/ros2_ws/build/mypkg/prefix_override:/home/kobayashi/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/kobayashi/ros2_ws/build/mypkg/build install --record /home/kobayashi/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

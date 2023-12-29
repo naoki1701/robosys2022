@@ -1,0 +1,25 @@
+[0.783s] Invoking command in '/home/kobayashi/robosys202x/ros2_ws/src/mypkg': PYTHONPATH=/home/kobayashi/robosys202x/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/kobayashi/robosys202x/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/kobayashi/robosys202x/ros2_ws/src/mypkg/build/mypkg/build install --record /home/kobayashi/robosys202x/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[0.947s] running egg_info
+[0.948s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.948s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.949s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.949s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.950s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.979s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.980s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.980s] running build
+[0.980s] running build_py
+[0.981s] copying mypkg/listener.py -> /home/kobayashi/robosys202x/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.981s] running install
+[0.982s] running install_lib
+[0.983s] copying /home/kobayashi/robosys202x/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/kobayashi/robosys202x/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.983s] byte-compiling /home/kobayashi/robosys202x/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[0.984s] running install_data
+[0.985s] running install_egg_info
+[0.986s] removing '/home/kobayashi/robosys202x/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.987s] Copying build/mypkg/mypkg.egg-info to /home/kobayashi/robosys202x/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[0.988s] running install_scripts
+[1.002s] Installing listener script to /home/kobayashi/robosys202x/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.002s] Installing talker script to /home/kobayashi/robosys202x/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.002s] writing list of installed files to '/home/kobayashi/robosys202x/ros2_ws/src/mypkg/build/mypkg/install.log'
+[1.022s] Invoked command in '/home/kobayashi/robosys202x/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/kobayashi/robosys202x/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/kobayashi/robosys202x/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/kobayashi/robosys202x/ros2_ws/src/mypkg/build/mypkg/build install --record /home/kobayashi/robosys202x/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

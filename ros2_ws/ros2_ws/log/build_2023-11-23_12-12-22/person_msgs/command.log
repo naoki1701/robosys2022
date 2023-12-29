@@ -1,0 +1,4 @@
+Invoking command in '/home/kobayashi/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kobayashi/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --build /home/kobayashi/ros2_ws/build/person_msgs -- -j8 -l8
+Invoked command in '/home/kobayashi/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kobayashi/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --build /home/kobayashi/ros2_ws/build/person_msgs -- -j8 -l8
+Invoking command in '/home/kobayashi/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kobayashi/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --install /home/kobayashi/ros2_ws/build/person_msgs
+Invoked command in '/home/kobayashi/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kobayashi/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --install /home/kobayashi/ros2_ws/build/person_msgs
